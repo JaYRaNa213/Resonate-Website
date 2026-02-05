@@ -56,7 +56,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link"
-            onClick={handleLinkClick}
+            aria-label="Resonate GitHub repository"
           >
             <FaGithub size={20} />
           </a>
