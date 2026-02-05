@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 import "./TechStack.css";
 import flutterLogo from "../../assets/Flutter.png";
 import appwriteLogo from "../../assets/Appwrite.png";
@@ -9,10 +11,10 @@ const TechStack = () => {
         <h2>TECH STACK</h2>
         <div className="tech-logos">
           <div className="tech-logo">
-            <img src={flutterLogo.src} alt="Flutter" />
+            <Image src={flutterLogo} alt="Flutter" />
           </div>
           <div className="tech-logo">
-            <img src={appwriteLogo.src} alt="Appwrite" />
+            <Image src={appwriteLogo} alt="Appwrite" />
           </div>
         </div>
       </div>
